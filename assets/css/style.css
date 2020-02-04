@@ -51,7 +51,7 @@
         position: absolute;
         top:0;
         z-index: -1;
-        background-image: url(../img/banner.png);
+        background-image: url(../img/bannercompress.jpg);
         background-size: cover;
     }
     .address-icon {
