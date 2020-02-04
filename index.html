@@ -1,27 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Lista te templates</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <title></title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="./tema1/index.html">tema1</a></li>
-                <li><a href="./tema2/index.html">tema2</a></li>
-                <li><a href="./tema3/index.html">tema3</a></li>
-                <li><a href="./tema4/index.html">tema4</a></li>
-                <li><a href="./tema5/index.html">tema5</a></li>
-                <li><a href="./tema6/index.html">tema6</a></li>
-            </ul>
-        </nav>
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="row row-mobile">
+                <!-- logo -->
+                    <div class="col-6 col-sm-6 d-flex col-lg-3 justify-content-start align-items-center">
+                        <img src="/assets/img/logo.png" alt="Logo" class="logo"> 
+                    </div>
+                    <!-- address -->
+                    <div class="col-md-9 col-lg-9 m-auto d-none d-lg-flex d-md-none justify-content-end">
+                        <div class="address-container justify-content-end d-flex mr-5">
+                            <div class="info-container d-flex mr-3">
+                                <i class="address-icon my-auto mr-2"></i>
+                                <div class="info">
+                                    <span class="text-capitalize text-secondary font-weight-bold text-address">dirección</span>
+                                    <p class="text-white">Mar de Filipinas 748, Fraccionamiento Altavela, 63735 Nay.</p>
+                                </div>
+                            </div>
+                            <div class="info-container d-flex mr-3">
+                                <i class="address-icon my-auto mr-2"></i>
+                                <div class="info">
+                                    <span class="text-capitalize text-secondary font-weight-bold text-address">Llámanos</span>
+                                    <p class="text-white">322 136 6177</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- toggle menu -->
+                    <div class="col-6 col-sm-6 d-flex d-sm-flex d-lg-none justify-content-end align-items-center">
+                        <i class="toggle-menu" id="toggleBtn"></i> 
+                    </div>
+                    <nav class="white-navbar d-none d-lg-flex" id="navBar">
+                        <ul class="white-navbar__ul">
+                            <li class="text-capitalize ml-3">Home</li>
+                            <li class="text-capitalize ml-3">Nosotros</li>
+                            <li class="text-capitalize ml-3">Servicios</li>
+                            <li class="text-capitalize ml-3">Contacto</li>
+                            <li class="text-capitalize ml-3"></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> 
+        </div>            
     </header>
-   <footer>
-    <p>Estadías 11vo cuatrímestre UTBB</p>
-   </footer>
+    <!-- slider -->
+    <section class="slider">
+
+    </section>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>

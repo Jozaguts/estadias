@@ -1,0 +1,214 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+:root{
+--main-color:#233240;
+--second-color:#596977;
+--third-color:#EF3E42;
+--main-bg:#FFFFFF;
+}
+@media screen and (max-width: 2024px) {
+    header {
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    header,
+    .address-bar {
+        background-color: rgba(52, 58, 64, .4);
+        padding-top: 29px;
+        padding-bottom: 64px;
+    }
+    .top-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 5vw;
+    }
+    .toggle-menu {
+        width: 35px;
+        height: 35px;
+        display: block;
+        background-image: url(../img/menu.svg);
+        background-position: 50% 50%;
+        background-size: cover ;
+        background-repeat: no-repeat;
+    }
+    .slider {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top:0;
+        z-index: -1;
+        background-image: url(../img/banner.png);
+        background-size: cover;
+    }
+    .address-icon {
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-image: url(../img/address.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .text-address {
+        font-size: 2rem;
+    }
+    .white-navbar {
+        background-color: white;
+        position: absolute;
+        width: 90vw;
+        border-radius: 10px;
+        bottom: -2rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 4rem;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .white-navbar__ul {
+        display: flex;
+        list-style: none;
+        margin:0;
+        width: 40%;
+        justify-content: space-around;
+        position: relative;
+        cursor: pointer;
+    }
+    .white-navbar__ul >li {
+        display: block;
+        padding: 1rem 0;
+    }
+    /* .white-navbar__ul >li::selection {
+        box-shadow: 0px 2px 0px var(--third-color);
+        animation: hoverlink .2s linear;
+    }
+    @keyframes hoverlink {
+        0%{
+           box-shadow: 0px 0px 0px red;
+        }    
+        100%{
+            box-shadow: 0px 2px 0px red;
+        }
+    } */
+}
+
+
+/* ipad */
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        background-color: rgb(52, 58, 64);
+        padding: 0;
+    }
+    .row-mobile{
+        padding: 1rem;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        padding: 5px 0;
+    }
+    .white-navbar {
+        top: calc(50px + 2rem);
+        height: 30vh;
+        background-color: transparent;
+    }
+    @keyframes showUl {
+        from{
+            height: 0;
+        }
+        to{
+            height: 30vh;
+        }
+    }
+   .white-navbar__ul {
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%; 
+    font-size: 1.5rem; 
+    background-color: white; 
+    position: absolute; 
+    top:0; 
+    animation: showUl .3s ease-in;  
+   
+    }
+     .white-navbar__ul >li {
+        animation: showli 1s forwards;
+        opacity: 1;
+    }
+    @keyframes showli {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+} 
+/* iphone 6 7 8 */
+@media screen and (max-width: 420px) {
+    header {
+        height: auto;
+        background-color: rgb(52, 58, 64);
+        padding: 0;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        padding: 5px 0;
+    }
+    .white-navbar {
+        top: calc(50px + 2rem);
+        height: 40vh;
+        background-color: transparent;
+    }
+    .white-navbar__ul {
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%; 
+        font-size: 1.5rem; 
+        background-color: white; 
+        position: absolute; 
+        top:0; 
+        animation: showUl .3s ease-in; 
+    }
+    .white-navbar__ul > li {
+        animation: showli 1s forwards;
+        opacity: 1;
+    }
+    @keyframes showli {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    @keyframes showUl {
+        from{
+            height: 0;
+        }
+        to{
+            height: 40vh;
+        }
+    }
+}
+
