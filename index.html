@@ -14,6 +14,14 @@
     <meta name="author" content="https://www.jozaguts.dev">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/css/flexslider.css">
+    <link rel="stylesheet" href="assets/css/dcontainer.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/jquery.flexslider.js"></script>
+    <script src="assets/js/slider.js"></script>
     <title>SAICOM</title>
 </head>
 <body>
@@ -62,9 +70,46 @@
         </div>            
     </header>
     <!-- slider -->
-    <section class="slider">
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="assets/img/banner.png" alt="" class="img">
+                <section class="caption">
+                    <h2>Analizamos la <span style="color: #E34234;">situación</span></h2>
+                    <h2>Creamos la <span style="color: #E34234;">solución</span></h2>
+                </section>
+            </li>
 
-    </section>
+            <li>
+                <img src="assets/img/banner2.png" alt="" class="img">
+                <section class="caption">
+                    <h2>Analizamos la <span style="color: #E34234;">situación</span></h2>
+                    <h2>Creamos la <span style="color: #E34234;">solución</span></h2>
+                </section>
+            </li>
+        </ul>
+    </div>
+    <!-- Datos Container -->
+    <div class="container">
+        <div class="frames"><i class="icono1"></i><h3 class="h3">Quienes Somos?</h3><p class="p">Una empresa especializada En 
+            el desarrollo de proyectos y soluciones en tecnologías de la información.</p>
+            <p class="p">En SAICOM Proporcionamos productos sólo de alta calidad  garantizando la vida útil de 
+            nuestros proyectos.</p></div>
+        <div class="frames"><i class="icono2"></i><h3 class="h3">Objetivos</h3>
+            <p class="p">Operamos bajo estándares Internacionales y normas federales.</p>
+            <p class="p">Contamos con equipo especializado en ingeniería, logística, Operación y ejecución.</p> 
+            <p class="p">Asegurando la integridad de su infraestructura y desarrollo.</p></div>
+        <div class="frames"><i class="icono3"></i><h3 class="h3">Cobertura</h3>
+            <p><img src="assets/img/cobertura.PNG" alt="" class="cobertura"></p></div>
+    </div>
+    <!-- Sobre nosotros -->
+    <div class="sobre">
+        <!-- <div class="posicion"></div> -->
+        <div class="espacio"><section class="section"><img src="assets/img/pattern.svg" alt="" class="puntos"><img src="assets/img/about.png" alt="" class="about"></section>
+        <aside class="aside"><h3 class="sn">Sobre Nosotros</h3><p class="pe">Analizamos la situación, creamos la solución</p>
+        <p class="pe">En Proporcionamos productos sólo de alta calidad <br> garantizando la vida útil de nuestros proyectos</p>
+        <button class="mas">Saber Más</button></aside></div>
+    </div>
 <script src="./assets/js/main.js"></script>
 </body>
 </html>
