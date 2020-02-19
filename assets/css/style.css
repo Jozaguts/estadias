@@ -25,6 +25,7 @@
         background-color: rgba(52, 58, 64, .4);
         padding-top: 29px;
         padding-bottom: 64px;
+        z-index: 5;
     }
     .top-header {
         width: 100%;
@@ -35,6 +36,7 @@
         width: 100px;
         height: 100px;
         margin-left: 5vw;
+        z-index: 5;
     }
     .toggle-menu {
         width: 35px;
@@ -44,14 +46,15 @@
         background-position: 50% 50%;
         background-size: cover ;
         background-repeat: no-repeat;
+        z-index: 5;
     }
-    .slider {
+    #slider {
         width: 100vw;
         height: 100vh;
         position: absolute;
         top:0;
         z-index: -1;
-        background-image: url(../img/bannercompress.jpg);
+        /*background-image: url(../img/bannercompress.jpg);*/
         background-size: cover;
     }
     .address-icon {
@@ -62,6 +65,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
+        z-index: 5;
     }
     .text-address {
         font-size: 2rem;
