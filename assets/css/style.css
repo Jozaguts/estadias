@@ -12,6 +12,9 @@
 --third-color:#EF3E42;
 --main-bg:#FFFFFF;
 }
+body {
+  overflow: hidden;
+}
 @media screen and (max-width: 2024px) {
     header {
         width: 100vw;
@@ -19,13 +22,16 @@
         top: 0;
         left: 0;
         right: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding-top: 29px;
+        padding-bottom: 64px;
+        z-index: 25;
     }
-    header,
     .address-bar {
         background-color: rgba(52, 58, 64, .4);
         padding-top: 29px;
         padding-bottom: 64px;
-        z-index: 5;
+        z-index: 30;
     }
     .top-header {
         width: 100%;
@@ -69,6 +75,11 @@
     }
     .text-address {
         font-size: 2rem;
+        color: var(--main-color);
+    }
+    .p-text-address {
+      color:  var(--second-color);
+      font-weight: 600;
     }
     .white-navbar {
         background-color: white;
@@ -97,23 +108,29 @@
         display: block;
         padding: 1rem 0;
     }
-    /* .white-navbar__ul >li::selection {
-        box-shadow: 0px 2px 0px var(--third-color);
-        animation: hoverlink .2s linear;
+    .slider-container {
+      width: 100vw;
+      position: absolute;
+      top: 0;
+      z-index: 20;
+      max-height: 90%;
     }
-    @keyframes hoverlink {
-        0%{
-           box-shadow: 0px 0px 0px red;
-        }    
-        100%{
-            box-shadow: 0px 2px 0px red;
-        }
-    } */
+    .carrousel-item > img {
+      width: 100% !important;
+    }
+
 }
 
 
 /* ipad */
 @media screen and (max-width: 768px) {
+
+  .carrousel-item > img {
+    width: 100% !important;
+    height: 575px !important;
+    max-height: 575px !important;
+  }
+
     header {
         height: auto;
         background-color: rgb(52, 58, 64);
