@@ -113,10 +113,21 @@ body {
       position: absolute;
       top: 0;
       z-index: 20;
-      max-height: 90%;
     }
-    .carrousel-item > img {
-      width: 100% !important;
+    .carousel-inner, .carousel-item{
+      height: 100vh;
+      min-height: 100%;
+    }
+    .carousel-item > img {
+      height: 100% !important;
+    }
+    .carousel-caption > h2 {
+      color: var(--third-color);
+      font-weight: 900;
+    }
+    .carousel-caption > p {
+      color: var(--second-color);
+      font-weight: 600;
     }
 
 }
@@ -125,11 +136,6 @@ body {
 /* ipad */
 @media screen and (max-width: 768px) {
 
-  .carrousel-item > img {
-    width: 100% !important;
-    height: 575px !important;
-    max-height: 575px !important;
-  }
 
     header {
         height: auto;
@@ -181,6 +187,27 @@ body {
             opacity: 1;
         }
     }
+    .slider-container {
+      width: 100vw;
+      position: absolute;
+      top: 82px;
+      z-index: 20;
+    }
+    .carousel-inner, .carousel-item{
+      height: 100%;
+      min-height: 100%;
+    }
+    .carousel-item > img {
+      height: 100% !important;
+    }
+    .carousel-caption > h2 {
+      color: var(--third-color);
+      font-weight: 900;
+    }
+    .carousel-caption > p {
+      color: var(--second-color);
+      font-weight: 600;
+    }
     
 } 
 /* iphone 6 7 8 */
@@ -230,6 +257,15 @@ body {
         to{
             height: 40vh;
         }
+    }
+    .slider-container {
+      width: 100vw;
+      position: absolute;
+      top: 82px;
+      z-index: 20;
+    }
+    .carousel-caption {
+      bottom: 0 !important;
     }
 }
 
