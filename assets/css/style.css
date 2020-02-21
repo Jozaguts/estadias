@@ -15,6 +15,12 @@
 body {
   overflow-x: hidden;
 }
+.main-text-color {
+  color: var(--main-color)
+}
+.third-bg-color {
+  background: var(--third-color) !important;
+}
 header {
   width: 100vw;
   position: absolute;
@@ -120,6 +126,22 @@ font-weight: 600;
   background-color: var(--main-bg);
   border-radius: 5px;
   bottom:calc( 0px - 100vh);
+}
+.about-zone {
+  position: relative;
+  bottom: calc(0px - 100vh);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.pattern-container {
+  position: absolute;
+  top: -2rem;
+  left: 2rem;
+}
+.h1-about-zone {
+  text-align: left !important;
+  padding-left: 2.7rem;
+  font-size: 18xp;
 }
 /* MEDIA QUIRIES */
 /* ipad pro 1024px */
@@ -301,6 +323,18 @@ font-weight: 600;
 .carousel-item > img {
   max-height: 400px;
 }
+.about-zone {
+  position: relative;
+  bottom: calc(-24rem);
+  padding-top: 4rem;
+}
+.h1-about-zone {
+  text-align: center !important;
+  font-size: 18xp;
+}
+.img-about-zone {
+  max-width: 320px;
+}
 
 }
 /* mobile */
@@ -368,6 +402,18 @@ font-weight: 600;
   width: 80px;
   height: 80px;
   margin: auto;
+}
+.about-zone {
+  position: relative;
+  bottom: calc(-9rem);
+  padding-top: 4rem;
+}
+.h1-about-zone {
+  text-align: center !important;
+  font-size: 18xp;
+}
+.img-about-zone {
+  max-width: 320px;
 }
 }
 
