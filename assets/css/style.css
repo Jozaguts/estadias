@@ -116,6 +116,9 @@ font-weight: 600;
 .servicios-container {
   position: relative;
   z-index: 100;
+  padding: 2rem 1rem;
+  background-color: var(--main-bg);
+  border-radius: 5px;
   bottom:calc( 0px - 100vh);
 }
 /* MEDIA QUIRIES */
@@ -212,7 +215,7 @@ font-weight: 600;
     position: absolute;
   }
   .carousel-caption {
-    bottom: 50% !important;
+    bottom: 30% !important;
   }
   .carousel-caption >h2 {
     color: var(--third-color);
@@ -225,10 +228,11 @@ font-weight: 600;
   .servicios-container {
     position: relative;
     z-index: 100;
-    bottom:calc( 0px - 40vh);
+    bottom:calc( 0px - 35vh);
     right: 0;
     left: 0;
     margin: auto auto;
+    padding: 2rem 1rem;
     background-color: var(--main-bg);
   }
 
@@ -360,306 +364,11 @@ font-weight: 600;
   z-index: 100;
   bottom:calc( 0px - 220px);
 }
-
+.servicios-img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
 }
 
 
-/* body {
-  overflow-x: hidden;
-}
-@media screen and (max-width: 2024px) {
-    header {
-        width: 100vw;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding-top: 29px;
-        padding-bottom: 64px;
-        z-index: 25;
-    }
-    .item1 {
-      background-image: url(/assets/img/cctv-2846083_12802.jpg);
-      background-size:  contain;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-    }
-    .item2 {
-      background-image: url(/assets/img/cableado.jpg);
-      background-size:  contain;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-    }
-    .item3 {
-      background-image: url(/assets/img/server.jpg);
-      background-size:  contain;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-    }
-    .address-bar {
-        background-color: rgba(52, 58, 64, .4);
-        padding-top: 29px;
-        padding-bottom: 64px;
-        z-index: 30;
-    }
-    .top-header {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .logo {
-        width: 100px;
-        height: 100px;
-        margin-left: 5vw;
-        z-index: 5;
-    }
-    .toggle-menu {
-        width: 35px;
-        height: 35px;
-        display: block;
-        background-image: url(../img/menu.svg);
-        background-position: 50% 50%;
-        background-size: cover ;
-        background-repeat: no-repeat;
-        z-index: 5;
-    }
-    .address-icon {
-        width: 40px;
-        height: 40px;
-        display: block;
-        background-image: url(../img/address.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
-        z-index: 5;
-    }
-    .text-address {
-        font-size: 2rem;
-        color: var(--main-color);
-    }
-    .p-text-address {
-      color:  var(--second-color);
-      font-weight: 600;
-    }
-    .white-navbar {
-        background-color: white;
-        position: absolute;
-        width: 90vw;
-        border-radius: 10px;
-        bottom: -2rem;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        height: 4rem;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-    .white-navbar__ul {
-        display: flex;
-        list-style: none;
-        margin:0;
-        width: 40%;
-        justify-content: space-around;
-        position: relative;
-        cursor: pointer;
-    }
-    .white-navbar__ul >li {
-        display: block;
-        padding: 1rem 0;
-    }
-    .carousel-inner, .carousel-item{
-      height: 100vh;
-      min-height: 100%;
-    }
-    .carousel-item > img {
-      height: 100% !important;
-    }
-    .carousel-caption > h2 {
-      color: var(--third-color);
-      font-weight: 900;
-    }
-    .carousel-caption > p {
-      color: var(--second-color);
-      font-weight: 600;
-    }
-
-}
-
-
-//ipad 
-@media screen and (max-width: 768px) {
-
-
-    header {
-        height: auto;
-        background-color: rgb(52, 58, 64);
-        padding: 0;
-    }
-    .row-mobile{
-        padding: 1rem;
-    }
-    .logo {
-        width: 50px;
-        height: 50px;
-        margin: 0;
-        padding: 5px 0;
-    }
-    .white-navbar {
-        top: calc(50px + 2rem);
-        height: 30vh;
-        background-color: transparent;
-    }
-    @keyframes showUl {
-        from{
-            height: 0;
-        }
-        to{
-            height: 30vh;
-        }
-    }
-   .white-navbar__ul {
-    justify-content: space-around;
-    flex-direction: column;
-    width: 100%; 
-    font-size: 1.5rem; 
-    background-color: white; 
-    position: absolute; 
-    top:0; 
-    animation: showUl .3s ease-in;  
-   
-    }
-     .white-navbar__ul >li {
-        animation: showli 1s forwards;
-        opacity: 1;
-    }
-    @keyframes showli {
-        from{
-            opacity: 0;
-        }
-        to{
-            opacity: 1;
-        }
-    }
-    .carousel-caption {
-      bottom: 20px !important;
-    }
-    .item1 {
-      background-image: url(/assets/img/cctv-2846083_12802.jpg);
-      background-size:  contain;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-    }
-    .item2 {
-      background-image: url(/assets/img/cableado.jpg);
-      background-size:  contain;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-    }
-    .item3 {
-      background-image: url(/assets/img/server.jpg);
-      background-size:  contain;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-    }
-    .carousel-item{
-      display: block;
-      height: auto;
-      height: 10vh !important;
-      min-height: 100%;
-    }
-    .carousel-caption > h2 {
-      color: var(--third-color);
-      font-size: 18px;
-      font-weight: 900;
-    }
-    .carousel-caption > p {
-      color: var(--second-color);
-      font-weight: 600;
-    }
-} 
- iphone 6 7 8 
-@media screen and (max-width: 420px) {
-    header {
-        height: auto;
-        background-color: rgb(52, 58, 64);
-        padding: 0;
-    }
-    .logo {
-        width: 50px;
-        height: 50px;
-        margin: 0;
-        padding: 5px 0;
-    }
-    .white-navbar {
-        top: calc(50px + 2rem);
-        height: 40vh;
-        background-color: transparent;
-    }
-    .white-navbar__ul {
-        justify-content: space-around;
-        flex-direction: column;
-        width: 100%; 
-        font-size: 1.5rem; 
-        background-color: white; 
-        position: absolute; 
-        top:0; 
-        animation: showUl .3s ease-in; 
-    }
-    .white-navbar__ul > li {
-        animation: showli 1s forwards;
-        opacity: 1;
-    }
-    @keyframes showli {
-        from{
-            opacity: 0;
-        }
-        to{
-            opacity: 1;
-        }
-    }
-    @keyframes showUl {
-        from{
-            height: 0;
-        }
-        to{
-            height: 40vh;
-        }
-    }
-    .carousel-caption {
-      bottom: 20px !important;
-    }
-    .item1 {
-      background-image: url(/assets/img/cctv-2846083_12802.jpg);
-      background-size:  contain;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-    }
-    .item2 {
-      background-image: url(/assets/img/cableado.jpg);
-      background-size:  contain;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-    }
-    .item3 {
-      background-image: url(/assets/img/server.jpg);
-      background-size:  contain;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-    }
-    .carousel-item{
-      height: 50vh !important;
-      min-height: 100%;
-    }
-    .carousel-caption > h2 {
-      color: var(--third-color);
-      font-size: 18px;
-      font-weight: 900;
-    }
-    .carousel-caption > p {
-      color: var(--second-color);
-      font-weight: 600;
-    }
-}
- */
