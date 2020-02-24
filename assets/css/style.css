@@ -116,7 +116,7 @@ font-weight: 600;
   font-weight: 600;
 }
 .carousel-caption > p {
-  color: var(--main-color);
+  color: var(--main-bg);
   font-weight: 900;
 }
 .servicios-container {
@@ -142,6 +142,15 @@ font-weight: 600;
   text-align: left !important;
   padding-left: 2.7rem;
   font-size: 18xp;
+}
+.carousel-caption > h2 {
+  font-size: 4.5rem;
+  text-transform: capitalize;
+}
+.carousel-caption > p {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  color: 
 }
 /* MEDIA QUIRIES */
 /* ipad pro 1024px */
