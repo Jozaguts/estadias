@@ -143,6 +143,20 @@ font-weight: 600;
   text-transform: capitalize;
   font-size: 2.5rem;
 }
+
+.cobertura{
+  z-index: 15;
+  width: 12rem;
+  height: 12rem;
+  transition: transform .5s;
+  border-radius: .5rem;
+}
+
+.cobertura:hover{
+  z-index: 15;
+  transform: scale(2.5);
+}
+
 .servicios-container {
   padding: 2rem;
   position: relative;
@@ -164,6 +178,30 @@ font-weight: 600;
   z-index: 200;
   transition: all .5s;
 }
+
+/* carrusel nuestros servicios */
+
+.carousel-item-prev,
+.carousel-item-next,
+.carousel-item.active {
+    display:flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 225px;
+    overflow:hidden;
+}
+
+/* smoother transitions */
+.carousel-inner>.carousel-item.next.left,
+.carousel-inner>.carousel-item.prev.right{
+    transition: all 1s ease;
+}
+
+/* proveedores */
+
 
  /*ipad pro 1024px */
 @media (max-width: 1024px) {
