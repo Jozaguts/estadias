@@ -399,11 +399,6 @@ header {
   .carousel-item > img {
     max-height: 400px;
   }
-  .about-zone {
-    /*position: relative;*/
-    /*bottom: calc(-24rem);*/
-    /*padding-top: 4rem;*/
-  }
   .h1-about-zone {
     text-align: center !important;
     font-size: 18px;
