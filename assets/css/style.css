@@ -168,7 +168,7 @@ header {
 .h1-about-zone {
   text-align: left !important;
   padding-left: 2.7rem;
-  font-size: 18px;
+  font-size: 3rem;
 }
 .text-address {
   font-size: 2rem;
@@ -413,7 +413,7 @@ header {
   }
   .h1-about-zone {
     text-align: center !important;
-    font-size: 18px;
+    font-size: 3rem;
   }
   .img-about-zone {
     max-width: 320px;
@@ -485,7 +485,7 @@ header {
   }
   .h1-about-zone {
     text-align: center !important;
-    font-size: 18px;
+    font-size: 3rem;
   }
   .img-about-zone {
     max-width: 320px;
