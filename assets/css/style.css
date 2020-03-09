@@ -28,16 +28,16 @@ a {
   background-position: 50% 50%;
 }
 .img-carrousel-1 {
-  background-image: url("/assets/img/carousel/a.png");
+  background-image: url("../img/carousel/a.png");
 }
 .img-carrousel-2 {
-  background-image: url("/assets/img/carousel/r.png");
+  background-image: url("../img/carousel/r.png");
 }
 .img-carrousel-3 {
-  background-image: url("/assets/img/carousel/t.png");
+  background-image: url("../img/carousel/t.png");
 }
 .img-carrousel-4 {
-  background-image: url("/assets/img/carousel/a.png");
+  background-image: url("../img/carousel/a.png");
 }
 .grid-container {
   display: grid;
