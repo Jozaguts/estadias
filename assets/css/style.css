@@ -89,8 +89,8 @@ header {
   z-index: 5;
 }
 .address-icon {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   display: block;
   background-image: url(../img/address.svg);
   background-repeat: no-repeat;
@@ -99,8 +99,8 @@ header {
   z-index: 5;
 }
 .call-icon {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   display: block;
   background-image: url(../img/phone-call.svg);
   background-repeat: no-repeat;
@@ -230,7 +230,9 @@ header {
 .carousel-inner > .carousel-item.prev.right {
   transition: all 1s ease;
 }
-
+.info {
+  line-height: 1;
+}
 /* proveedores */
 
 /*ipad pro 1024px */
@@ -277,8 +279,8 @@ header {
     z-index: 5;
   }
   .address-icon {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     display: block;
     background-image: url(../img/address.svg);
     background-repeat: no-repeat;
