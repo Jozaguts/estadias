@@ -58,7 +58,8 @@ header {
   right: 0;
   background-color: rgba(255, 255, 255, 0.7);
   padding-top: 29px;
-  padding-bottom: 64px;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
   z-index: 500000;
 }
 .top-header {
@@ -67,8 +68,8 @@ header {
   justify-content: space-between;
 }
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin-left: 5vw;
   z-index: 5;
 }
@@ -233,6 +234,7 @@ header {
 .info {
   line-height: 1;
 }
+
 /* proveedores */
 
 /*ipad pro 1024px */
@@ -248,7 +250,8 @@ header {
     right: 0;
     background-color: rgba(255, 255, 255, 0.7);
     padding-top: 29px;
-    padding-bottom: 64px;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
     z-index: 50000;
   }
   .top-header {
@@ -257,8 +260,8 @@ header {
     justify-content: space-between;
   }
   .logo {
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
     margin-left: 5vw;
     z-index: 5;
   }
@@ -323,10 +326,6 @@ header {
     display: block;
     padding: 1rem 0;
   }
-  /*.carousel-container {*/
-  /*  top:0;*/
-  /*  position: absolute;*/
-  /*}*/
   .carousel-caption {
     bottom: 40% !important;
   }
@@ -352,12 +351,13 @@ header {
 @media (max-width: 768px) {
   header {
     position: relative;
-    background-color: var(--main-color);
-    padding-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
   }
   .white-navbar {
     top: calc(50px + 2rem);
@@ -424,12 +424,13 @@ header {
   header {
     position: relative;
     z-index: 500000;
-    background-color: var(--main-color);
-    padding-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
   }
   .white-navbar {
     top: calc(50px + 2rem);
