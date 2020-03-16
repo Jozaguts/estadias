@@ -192,6 +192,7 @@ header {
   transform: scale(2.5);
 }
 
+
 .servicios-container {
   padding: 2rem;
   position: relative;
@@ -236,6 +237,10 @@ header {
 }
 
 /* proveedores */
+.prov{
+  display: flex;
+  align-items: center;
+}
 
 /*ipad pro 1024px */
 @media (max-width: 1024px) {
