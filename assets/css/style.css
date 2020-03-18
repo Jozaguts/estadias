@@ -6,17 +6,37 @@
     box-sizing: border-box;
     /* overflow: hidden; 
 } */
+@font-face {
+  font-family: swiss721;
+  src: url("../fonts/swiss721.ttf");
+}
 :root {
   --main-color: #233240;
   --second-color: #596977;
   --third-color: #ef3e42;
   --main-bg: #ffffff;
 }
+.text-main-color {
+  color: var(--main-color);
+}
+.text-second-color {
+  color: var(--second-color);
+}
+.text-third-color {
+  color: var(--third-color);
+}
+.carousel-caption > h2 {
+  font-family: swiss721 ;
+}
 body {
   overflow-x: hidden;
 }
 a {
   color: var(--main-color) !important;
+}
+.servicios-item {
+  background-color: var(--main-color);
+  color: white;
 }
 .img-carrousel {
   width: auto;
@@ -61,6 +81,10 @@ header {
   padding-bottom: 4rem;
   padding-top: 2rem;
   z-index: 500000;
+}
+footer{
+  background-color: var(--main-color);
+  padding: 5rem 0;
 }
 .top-header {
   width: 100%;
@@ -143,6 +167,7 @@ header {
 .white-navbar__ul > li {
   display: block;
   padding: 1rem 0;
+  font-size: 1.5rem;
 }
 .carousel-container {
   position: relative;
@@ -330,6 +355,7 @@ header {
   .white-navbar__ul > li {
     display: block;
     padding: 1rem 0;
+    font-size: 1.5rem;
   }
   .carousel-caption {
     bottom: 40% !important;
@@ -383,6 +409,7 @@ header {
   .white-navbar__ul > li {
     animation: showli 1s forwards;
     opacity: 1;
+    font-size: 1.5rem;
   }
   @keyframes showli {
     from {
@@ -455,6 +482,7 @@ header {
   .white-navbar__ul > li {
     animation: showli 1s forwards;
     opacity: 1;
+    font-size: 1.5rem;
   }
   @keyframes showli {
     from {
