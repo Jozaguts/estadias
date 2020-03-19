@@ -1,8 +1,4 @@
 
-.logo {
-  max-width: 115px;
-  overflow-x: hidden;
-}
 
 @font-face {
   font-family: swiss721;
@@ -36,6 +32,11 @@ main {
   top:0;
   z-index: 10;
 }
+.logo {
+  max-width: 115px;
+  overflow-x: hidden;
+}
+
 .text-main-color{
   color: var(--main-color);
 }
@@ -44,6 +45,12 @@ main {
 }
 .text-third-color{
   color: var(--third-color);
+}
+.bg-third-color {
+  background-color: var(--third-color) !important;
+  color: #fff !important;
+  background-color: var(--third-color) !important;
+  border-color: var(--third-color) !important;
 }
 .content-about-area {
   width: 90%;
@@ -88,6 +95,9 @@ font-family: swiss721;
 .carousel-caption {
   position: absolute;
   top: 40%;
+}
+.rank-img {
+  max-height: 500px;
 }
 .about-area-item {
   padding: 3rem;
@@ -150,6 +160,9 @@ font-family: swiss721;
   .content-about-area {
     transform: translateY(-50px);
     overflow: visible !important;
+  }
+  .content-container{
+    margin-top:1rem;
   }
  }
 
