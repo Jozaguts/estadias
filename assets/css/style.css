@@ -105,7 +105,11 @@ font-family: swiss721;
 }
 .card-img-top:hover {
   transform: scale(1.2) !important;
-  transition: all .3s;
+  transition: all .5s;
+}
+.card-img-top {
+  width: 300px !important;
+  height: 200px !important;
 }
 @media screen and (max-width: 1024px){
   .logo {
@@ -169,6 +173,7 @@ font-family: swiss721;
   .content-container{
     margin-top:1rem;
   }
+
  }
 
 
