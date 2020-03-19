@@ -1,5 +1,4 @@
 
-
 @font-face {
   font-family: swiss721;
   src: url("../fonts/swiss721.ttf");
@@ -114,6 +113,18 @@ font-family: swiss721;
 .card-img-top {
   width: 300px !important;
   height: 200px !important;
+}
+.whatsapp-container {
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  opacity: .5;
+}
+.whatsapp-container:hover, .whatsapp-container:focus {
+  opacity: 1;
 }
 @media screen and (max-width: 1024px){
   .logo {
