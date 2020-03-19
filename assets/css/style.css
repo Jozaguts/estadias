@@ -52,6 +52,7 @@ main {
   background-color: var(--third-color) !important;
   border-color: var(--third-color) !important;
 }
+
 .content-about-area {
   width: 90%;
   background-color: var(--main-color);
@@ -101,6 +102,10 @@ font-family: swiss721;
 }
 .about-area-item {
   padding: 3rem;
+}
+.card-img-top:hover {
+  transform: scale(1.2) !important;
+  transition: all .3s;
 }
 @media screen and (max-width: 1024px){
   .logo {
