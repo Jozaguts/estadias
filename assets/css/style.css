@@ -129,12 +129,36 @@ font-family: swiss721;
 .content-container {
   padding-top: 6rem;
 }
+.controls-carousel {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-size: cover;
+}
+.prev-btn {
+  left: 0;
+  background-image: url('/assets/img/back.svg');
+}
+.next-btn {
+  right: 0;
+  background-image: url('/assets/img/arrow.svg');
+}
 @media screen and (max-width: 1024px){
   .logo {
     max-width: 115px;
   }
   .about-area-item {
     padding: 2rem;
+  }
+  .next-btn{
+    right: -40px;
+  }
+  .prev-btn{
+    left: -40px;
   }
 
 }
@@ -158,7 +182,12 @@ font-family: swiss721;
   .content-container {
     padding-top: 4rem;
   }
-
+  .next-btn{
+    right: -25px;
+  }
+  .prev-btn{
+    left: -25px;
+  }
 }
 @media screen and (max-width: 420px) {
 
@@ -199,5 +228,7 @@ main{
   .content-container {
     padding-top: 0rem;
   }
-
+  .controls-carousel  {
+    display: none;
+  }
  }
