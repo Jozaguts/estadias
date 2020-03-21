@@ -126,6 +126,9 @@ font-family: swiss721;
 .whatsapp-container:hover, .whatsapp-container:focus {
   opacity: 1;
 }
+.content-container {
+  padding-top: 6rem;
+}
 @media screen and (max-width: 1024px){
   .logo {
     max-width: 115px;
@@ -151,6 +154,9 @@ font-family: swiss721;
   }
   .about-area-item {
     padding: 1rem;
+  }
+  .content-container {
+    padding-top: 4rem;
   }
 
 }
@@ -190,6 +196,8 @@ main{
   .content-container{
     margin-top:1rem;
   }
-
+  .content-container {
+    padding-top: 0rem;
+  }
 
  }
