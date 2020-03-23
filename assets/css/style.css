@@ -39,7 +39,9 @@ main {
   max-width: 115px;
   overflow-x: hidden;
 }
-
+.bg-second-color {
+  background-color: var(--second-color);
+}
 .text-main-color{
   color: var(--main-color);
 }
@@ -230,5 +232,11 @@ main{
   }
   .controls-carousel  {
     display: none;
+  }
+  .costumer-img {
+    width: 290px;
+    display: block;
+    padding: 1rem 0;
+    transform: translate(10px, 10px);
   }
  }
