@@ -9,6 +9,12 @@
   --third-color: #ef3e42;
   --main-bg: #ffffff;
 }
+.no-sel{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
 body {
   position: relative;
   width: 100vw;
@@ -21,6 +27,7 @@ header {
   z-index: 20;
   top: 0;
 }
+
 footer {
   background-color: var(--main-color);
 }
@@ -149,6 +156,40 @@ font-family: swiss721;
   right: 0;
   background-image: url('/assets/img/arrow.svg');
 }
+
+#centrar{
+  display: flex;
+  justify-content: center;
+  width: 73%;
+}
+#centrado{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 350px;
+}
+
+.image-box img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+}
+
+
+
 @media screen and (max-width: 1024px){
   .logo {
     max-width: 115px;
@@ -239,4 +280,6 @@ main{
     padding: 1rem 0;
     transform: translate(10px, 10px);
   }
+
+  
  }

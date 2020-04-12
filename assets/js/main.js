@@ -62,3 +62,4 @@ $('.next-btn').click(function() {
 $('.prev-btn').click(function() {
     owl.trigger('prev.owl.carousel');
 })
+
